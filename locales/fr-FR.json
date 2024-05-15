@@ -24,11 +24,11 @@
   "$list": {
     "and": {
       "join": ", ",
-      "conjunction": " and "
+      "conjunction": " et "
     },
     "or": {
       "join": ", ",
-      "conjunction": " or "
+      "conjunction": " ou "
     }
   },
   "name": {
@@ -41,22 +41,22 @@
   },
   "errors": {
     "username_already_exists": "Le pseudonyme choisi n'existe pas",
-    "internal": "Something went wrong, please try again later.",
-    "invalid_login": "Invalid username or password.",
-    "invalid_recovery": "No accounts found",
-    "banned": "You are banned from Pubby.club"
+    "internal": "Il y a eu une erreur, merci d'essayer plus tard.",
+    "invalid_login": "Mot de passe ou nom d'utilisateur invalide.",
+    "invalid_recovery": "Aucun compte trouvé",
+    "banned": "Vous êtes bannis de Pubby.club"
   },
   "comming soon": "Arrive bientôt...",
   "home": {
     "welcome_to": "Bienvenue à",
     "alpha_step": "ÉTAPE ALPHA",
     "congratulations": "Félicitation {0}!",
-    "discoverer": "DISCOVERER",
+    "discoverer": "DECOUVRIR",
     "you_found_us": "Vous nous avez trouvé au début de notre voyage, enregistrez-vous et recevez le badge exclusif.",
     "after_a_week": "Après une semaine d'activité, tu reçois le badge {0}."
   },
   "buttons": {
-    "submit": "Submit",
+    "submit": "Valider",
     "accept": "Accepter",
     "deny": "Refuser",
     "save": "Enregistrer",
@@ -78,8 +78,8 @@
     "sync": "Synchroniser",
     "add": "Ajouter",
     "add_to_playlist": "Ajouter à la playlist",
-    "move_start": "Bouger au début",
-    "move_end": "Bouger à la fin",
+    "move_start": "Revenir au début",
+    "move_end": "Aller à la fin",
     "like": "Aimer",
     "dislike": "Désaprouver",
     "enter_fullscreen": "Ouvrir le plein-écran",
@@ -87,49 +87,49 @@
     "ban": "Bannir",
     "unban": "Débannir",
     "kick": "Ejecter",
-    "player_size": "Taille du joueur",
-    "cut": "Cut",
-    "edit": "Edit"
+    "player_size": "Taille du lecteur",
+    "cut": "Couper",
+    "edit": "Modifier"
   },
   "fields": {
     "name": "Nom",
     "username": "Pseudonyme",
     "email": "E-mail",
     "password": "Mot de passe",
-    "birthday": "Birthday",
+    "birthday": "Date de naissance",
     "password_confirm": "Confirmer le mot de passe",
-    "avatar": "Photo de profil (URL)",
-    "image_url": "Image URL",
-    "room_name": "nom de chambre",
-    "room_slug": "lien de chambre",
+    "avatar": "Photo de profil (Lien)",
+    "image_url": "Lien de l'image",
+    "room_name": "Nom de la salle",
+    "room_slug": "Lien de la salle",
     "description": "Description",
     "thumbnail": "Photo de Couverture",
     "welcome": "Message de bienvenue",
     "search": "Chercher...",
     "title": "Titre",
-    "parental_rating": "Parental Rating",
-    "country": "Country",
-    "start": "Start",
-    "end": "End"
+    "parental_rating": "Évaluation parentale",
+    "country": "Pays",
+    "start": "Commencer",
+    "end": "Terminer"
   },
   "signin": {
     "title": "Connexion",
-    "tip": "Stay active for one week and earn the {0} badge.",
+    "tip": "Rester actif une semaine et gagnez le {0} badge.",
     "description": "Connecte toi et invite tes amis pour lancer une partie!",
     "recovery": "Mot de passe oublié"
   },
   "signup": {
     "title": "VOUS N'ÊTES PAS ENCORE INSCRIT?",
     "tip": "Si tu t’enregistres maintenant, tu va gagner le badge {0}, uniquement pour ceux qui sont inscrit à la phase alpha.",
-    "description": "Inscription pour découvrir de nouvelles musiques et genres en participant dans les différentes salles .",
+    "description": "Inscris toi pour découvrir de nouvelles musiques et genres en participant dans les différentes salles .",
     "signin": "J'ai déjà un compte"
   },
   "media-cut": {
-    "title": "Cut media",
+    "title": "Couper le média",
     "notifications": {
       "save": {
-        "title": "Media updated",
-        "body": "\"{title}\" updated successfully."
+        "title": "Média mis à jour",
+        "body": "\"{title}\" à bien été mis à jour."
       }
     }
   },
@@ -138,8 +138,8 @@
     "description": "Mot de passe oublié? Pas de panique, utilise ton adresse mail et nom d'utilisateur pour le récupérer.",
     "dialogs": {
       "success": {
-        "title": "E-mail sent",
-        "body": "We send a recovery link to your email, link validity is 2 hours."
+        "title": "E-mail envoyé",
+        "body": "Nous envoyons un lien de récupération sur votre email, la validité du lien est de 2 heures."
       }
     }
   },
@@ -154,16 +154,16 @@
   "browser": {
     "title": "Navigateur",
     "all_rooms": "Toutes les salles",
-    "your_rooms": "Your rooms",
-    "search_results": "Search Results",
-    "search_placeholder": "Search rooms..."
+    "your_rooms": "Vos salles",
+    "search_results": "Resultats de la recherche",
+    "search_placeholder": "Rechercher des salles..."
   },
   "room": {
-    "users": "Users",
+    "users": "Utilisateurs",
     "created_by": "crée par {username}",
     "played_by": "par {username}",
     "playing_now": "Tu écoutes:",
-    "next_play": "tu vas jouer:",
+    "next_play": "Tu vas jouer:",
     "skip": "PASSER",
     "queue_join": "REJOINDRE LA FILE D’ATTENTE",
     "queue_leave": "QUITTER LA FILE D’ATTENTE",
@@ -171,22 +171,22 @@
     "queue_locked": "FILE D'ATTENTE VERROUILLÉE",
     "play_now": "JOUER MAINTENANT",
     "stop": "STOPPER LA LECTURE",
-    "queue_count": "il n'y a personne dans la liste de lecture| il y a une seule personne | il y a {count} personnes",
+    "queue_count": "Il n'y a personne dans la liste de lecture| il y a une seule personne | il y a {count} personnes",
     "queue_position": "Tu es le suivant | Il y a une personne devant toi | il y a {count} personnes devant toi",
     "no_playlists": "Créer une playlist pour jouer:",
     "no_active_playlist": "Pas de playlist active",
     "no_media": "Pas de média reconnu",
     "is_playing": "{username} est en train de jouer",
-    "user_count": "Nobody | 1 user | {count} users",
-    "room_protected": "The room is protected!",
-    "type_password": "Enter the password...",
+    "user_count": "Personne | 1 utilisateur | {count} Utilisateurs",
+    "room_protected": "La salle est protégée !",
+    "type_password": "Entrez le mot de passe...",
     "visibility": {
-      "public": "Public",
-      "private": "Link only",
-      "password": "Password protected"
+      "public": "Publique",
+      "private": "Lien uniquement",
+      "password": "Protégée par un mot de passe"
     },
     "parental_rating": {
-      "free": "Free"
+      "free": "Libre"
     },
     "dialogs": {
       "new": {
@@ -209,28 +209,28 @@
         "body": "Tu t'es enregistré depuis une autre fenêtre. Rafraichit la page pour continuer d'utiliser celle-ci."
       },
       "no_room": {
-        "title": "Unable to follow",
-        "body": "Your friend is not in any room."
+        "title": "Impossible de suivre",
+        "body": "Votre ami n'est dans aucune salle."
       },
       "room_private": {
-        "title": "Unable to follow",
-        "body": "Your friend is in a private room."
+        "title": "Impossible de suivre",
+        "body": "Votre ami est dans une salle privée."
       },
       "invalid_password": {
-        "title": "Unable to join the room",
-        "body": "The password entered is invalid."
+        "title": "Impossible de rejoindre la salle",
+        "body": "Le mot de passe saisi n'est pas valide."
       },
       "missing_birthday": {
-        "title": "Incomplete registration",
-        "body": "Your registration does not have a birth date. We use this information to filter rooms based on their age and do not share this data with anyone. To avoid problems, inform your real age as once defined, it will not be possible to change it."
+        "title": "Inscription incomplète",
+        "body": "Votre inscription ne comporte pas de date de naissance. Nous utilisons ces informations pour filtrer les salles en fonction de leur âge et ne partageons ces données avec personne. Pour éviter tout problème, renseignez votre âge réel car une fois défini, il ne sera plus possible de le modifier."
       }
     },
     "notifications": {
-      "playing": "{username} is playing \"{media}\""
+      "playing": "{username} joue \"{media}\""
     }
   },
   "room_options": {
-    "title": "Paramètres de chambre",
+    "title": "Paramètres de la salle",
     "details": {
       "title": "Détails",
       "welcome_hint": "{user} va être remplacé par le nom d'utilisateur"
