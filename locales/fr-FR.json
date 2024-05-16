@@ -50,7 +50,7 @@
   "home": {
     "welcome_to": "Bienvenue à",
     "alpha_step": "ÉTAPE ALPHA",
-    "congratulations": "Félicitation {0}!",
+    "congratulations": "Félicitation {0} !",
     "discoverer": "DECOUVRIR",
     "you_found_us": "Vous nous avez trouvé au début de notre voyage, enregistrez-vous et recevez le badge exclusif.",
     "after_a_week": "Après une semaine d'activité, tu reçois le badge {0}."
@@ -115,11 +115,11 @@
   "signin": {
     "title": "Connexion",
     "tip": "Rester actif une semaine et gagnez le {0} badge.",
-    "description": "Connecte toi et invite tes amis pour lancer une partie!",
+    "description": "Connecte toi et invite tes amis pour lancer une partie !",
     "recovery": "Mot de passe oublié"
   },
   "signup": {
-    "title": "VOUS N'ÊTES PAS ENCORE INSCRIT?",
+    "title": "VOUS N'ÊTES PAS ENCORE INSCRIT ?",
     "tip": "Si tu t’enregistres maintenant, tu va gagner le badge {0}, uniquement pour ceux qui sont inscrit à la phase alpha.",
     "description": "Inscris toi pour découvrir de nouvelles musiques et genres en participant dans les différentes salles .",
     "signin": "J'ai déjà un compte"
@@ -135,7 +135,7 @@
   },
   "recovery": {
     "title": "Récupération de mot de passe",
-    "description": "Mot de passe oublié? Pas de panique, utilise ton adresse mail et nom d'utilisateur pour le récupérer.",
+    "description": "Mot de passe oublié ? Pas de panique, utilise ton adresse mail et nom d'utilisateur pour le récupérer.",
     "dialogs": {
       "success": {
         "title": "E-mail envoyé",
@@ -145,7 +145,7 @@
   },
   "change_password": {
     "title": "Changement de mot de passe",
-    "confirmation": "Le mot de passe a été changé avec succès! Utilise maintenant ton nouveau mot de passe pour te connecter."
+    "confirmation": "Le mot de passe a été changé avec succès ! Utilise maintenant ton nouveau mot de passe pour te connecter."
   },
   "splash": {
     "title": "Attendez",
@@ -162,8 +162,8 @@
     "users": "Utilisateurs",
     "created_by": "crée par {username}",
     "played_by": "par {username}",
-    "playing_now": "Tu écoutes:",
-    "next_play": "Tu vas jouer:",
+    "playing_now": "Tu écoutes :",
+    "next_play": "Tu vas jouer :",
     "skip": "PASSER",
     "queue_join": "REJOINDRE LA FILE D’ATTENTE",
     "queue_leave": "QUITTER LA FILE D’ATTENTE",
@@ -172,8 +172,8 @@
     "play_now": "JOUER MAINTENANT",
     "stop": "STOPPER LA LECTURE",
     "queue_count": "Il n'y a personne dans la liste de lecture| il y a une seule personne | il y a {count} personnes",
-    "queue_position": "Tu es le suivant | Il y a une personne devant toi | il y a {count} personnes devant toi",
-    "no_playlists": "Créer une playlist pour jouer:",
+    "queue_position": "Tu es le suivant | Il y a une personne devant toi | Il y a {count} personnes devant toi",
+    "no_playlists": "Créer une playlist pour jouer :",
     "no_active_playlist": "Pas de playlist active",
     "no_media": "Pas de média reconnu",
     "is_playing": "{username} est en train de jouer",
@@ -194,11 +194,11 @@
       },
       "stop_playing": {
         "title": "Arrêter de jouer",
-        "body": "Es-tu sûr d'arrêter de jouer?"
+        "body": "Es-tu sûr d'arrêter de jouer ?"
       },
       "leave_queue": {
         "title": "quitter la file d’attente",
-        "body": "Es-tu sûr de quitter la file d’attente?"
+        "body": "Es-tu sûr de quitter la file d’attente ?"
       },
       "unauthorized": {
         "title": "Non autorisé",
@@ -237,21 +237,21 @@
     }
   },
   "queue": {
-    "title": "Play queue",
+    "title": "Lire la file d'attente",
     "user_locked": "file d'attente verrouillée.",
     "user_unlocked": "file d'attente déverrouillée.",
     "dialogs": {
       "clear": {
-        "title": "Clear Queue",
-        "body": "Are you sure you want to remove all users from the queue?"
+        "title": "Vider la file d'attente",
+        "body": "Êtes-vous sûr de vouloir supprimer tous les utilisateurs de la file d'attente ?"
       }
     },
     "events": {
-      "clear": "@{username} cleared the queue."
+      "clear": "@{username} a vidé la file d'attente."
     }
   },
   "friends": {
-    "title": "Friends"
+    "title": "Amis"
   },
   "player": {
     "next_play": "{username} va jouer",
@@ -264,22 +264,22 @@
     "started_in": "Commencé le {date}",
     "no_dj": {
       "title": "Il n'y a personne qui joue",
-      "body": "Click {play_now} Pour commencer à jouer!"
+      "body": "Clique {play_now} pour commencer à jouer !"
     },
     "notifications": {
       "cannot_play": {
-        "title": "Reproduction not allowed!",
-        "body": "Your browser requires you to click on the player to start playback."
+        "title": "Reproduction interdite !",
+        "body": "Votre navigateur vous oblique de cliquer sur le lecteur pour lancer la lecture."
       }
     },
     "dialogs": {
       "skip": {
         "title": "Passer",
-        "body": "Es-tu sûr de passer le média actuel?"
+        "body": "Es-tu sûr de passer le média actuel ?"
       },
       "skip_remove": {
         "title": "Passer et supprimer",
-        "body": "Es-tu sûr de vouloir passer le média actuel et supprimer le DJ de la file d’attente?"
+        "body": "Es-tu sûr de vouloir passer le média actuel et supprimer le DJ de la file d’attente ?"
       }
     }
   },
@@ -309,16 +309,16 @@
     "select": "Sélectionner une playlist",
     "none_selected": "Pas de playlist sélectionnée",
     "selection_popup": {
-      "title": "Sélection d'une playlist:"
+      "title": "Sélection d'une playlist :"
     },
     "dialogs": {
       "delete_media": {
         "title": "Suppression du media",
-        "body": "Es-tu sûr de vouloir supprimer {media} de ta playlist?"
+        "body": "Es-tu sûr de vouloir supprimer {media} de ta playlist ?"
       },
       "delete_playlist": {
         "title": "Suppression de playlist",
-        "body": "Es-tu sûr de vouloir supprimer la playlist {playlist}?"
+        "body": "Es-tu sûr de vouloir supprimer la playlist {playlist} ?"
       }
     },
     "notifications": {
@@ -357,19 +357,19 @@
       "title": "Ajouté depuis SoundCloud"
     },
     "vimeo": {
-      "title": "Add from Vimeo",
-      "link": "LINK OF THE VIDEO",
-      "placeholder": "Insert here the link for the video from vimeo.",
-      "video_duration": "Duration: {duration}",
-      "video_count": "No video | 1 video | {count} videos",
-      "video_channel": "Channel"
+      "title": "Ajouter depuis Vimeo",
+      "link": "LIEN DE LA VIDÉO",
+      "placeholder": "Insérez ici le lien vers la vidéo de vimeo.",
+      "video_duration": "Durée : {duration}",
+      "video_count": "Pas de vidéo | 1 vidéo | {count} vidéos",
+      "video_channel": "Chaîne"
     }
   },
   "roles": {
     "title": "Rôles et Permissions",
     "description": "Ajouter des rôles personnalisés pour cette salle",
     "new": "Nouveau rôle",
-    "color": "Couleur du t'chat:",
+    "color": "Couleur du chat :",
     "users": "Utilisateurs",
     "permissions": "Pérmissions",
     "add_user": "Ajouter un utilisateur",
@@ -382,11 +382,11 @@
     "dialogs": {
       "delete": {
         "title": "Suppression de rôle",
-        "body": "Es-tu sûr de vouloir supprimer le rôle {rôle} de la salle actuelle?"
+        "body": "Es-tu sûr de vouloir supprimer le rôle {rôle} de la salle actuelle ?"
       },
       "remove_user": {
         "title": "Suppression d'utilisateur",
-        "body": "Es-tu sûr de vouloir supprimer l'utilisateur sélectionné du rôle {role}?"
+        "body": "Es-tu sûr de vouloir supprimer l'utilisateur sélectionné du rôle {role} ?"
       }
     },
     "scopes": {
@@ -483,27 +483,27 @@
     "score": "{points} points",
     "friend_is": "Vous êtes déjà amis",
     "friend_add": "Ajouter un ami",
-    "friend_pending": "Requête d'amitié envoyée",
-    "friend_accept": "Accepter la demande d'amitié",
+    "friend_pending": "Requête d'amis envoyée",
+    "friend_accept": "Accepter la demande d'amis",
     "user_kick": "Éjecter un utilisateur de la salle",
     "user_ban": "Bannir un utilisateur de la salle",
-    "user_site_ban": "Ban user from Pubby.club",
+    "user_site_ban": "Bannir l'utilisateur de Pubby.club",
     "dialogs": {
       "user_ban": {
         "title": "Bannir un utilisateur",
-        "body": "Es-tu sûr de vouloir bannir {username} de la salle?"
+        "body": "Es-tu sûr de vouloir bannir {username} de la salle ?"
       },
       "user_kick": {
         "title": "Ejection d'utilisateur",
-        "body": "Es-tu sûr de vouloir éjecter l'utilisateur {username} de la salle?"
+        "body": "Es-tu sûr de vouloir éjecter l'utilisateur {username} de la salle ?"
       },
       "user_site_ban": {
-        "title": "Ban user from Pubby.club",
-        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+        "title": "Bannir l'utilisateur de Pubby.club",
+        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB ?"
       },
       "user_remove": {
-        "title": "Unfriend",
-        "body": "Are you sure you want to unfriend?"
+        "title": "Supprimer des amise",
+        "body": "Êtes-vous sûr de vouloir le supprimer de votre liste d'amis ?"
       }
     },
     "notifications": {
@@ -520,12 +520,12 @@
       },
       "user_site_banned": {
         "title": {
-          "account": "User banned from Pubby.club",
-          "ip": "User banned by IP from Pubby.club"
+          "account": "Utilisateur bannis de Pubby.club",
+          "ip": "Utilisateur a été banni par IP de Pubby.club"
         },
         "body": {
-          "expires": "User {username} banned from Pubby.club for {duration}",
-          "permanent": "User {username} banned permanently from Pubby.club"
+          "expires": "L'utilisateur {username} a été banni de Pubby.club pour {duration}",
+          "permanent": "L'utilisateur {username} a été banni de manière permanente de Pubby.club"
         }
       }
     }
@@ -534,23 +534,23 @@
     "settings": "Paramètres",
     "new_room": "Nouvelle chambre",
     "logout": "Déconnexion",
-    "friendship_requests": "Requêtes d'amitiés | Demandes d'amitiés ({count}) | Demandes d'amitiés ({count})"
+    "friendship_requests": "Requêtes d'amis | Demandes d'amis ({count}) | Demandes d'amis ({count})"
   },
   "friendship": {
     "notifications": {
       "accepted": {
-        "title": "Demande d'amitié accepté",
-        "body": "{username} a accepté ta demande d'amitié"
+        "title": "Demande d'amis accepté",
+        "body": "{username} a accepté ta demande d'amis"
       },
       "requested": {
-        "title": "Demande d'amitié",
-        "body": "{username} a envoyé une demande d'amitié"
+        "title": "Demande d'amis",
+        "body": "{username} a envoyé une demande d'amis"
       }
     }
   },
   "friendship_request": {
-    "title": "Demandes d'amitiés",
-    "no_requests": " Aucune demandes",
+    "title": "Demandes d'amis",
+    "no_requests": "Aucune demandes",
     "no_requests_description": "Tu as répondu à toutes les demandes."
   },
   "settings": {
@@ -570,16 +570,16 @@
       "title": "Notifications",
       "mentions_sound": "Mention sound",
       "desktop_notifications": "Desktop Notifications",
-      "chat": "Chat Messages",
-      "media": "Media Update",
+      "chat": "Messages du chat",
+      "media": "Mis à jour des médias",
       "mention": "Mentions"
     }
   },
   "chat": {
     "title": "Messages",
-    "clear": "Clear",
+    "clear": "Supprimer",
     "placeholder": "Écrit ici...",
-    "user_said": "{user} said: {text}",
+    "user_said": "{user} dis : {text}",
     "messages": {
       "reply": "Répondre",
       "delete": "Supprimer"
@@ -592,20 +592,20 @@
       "queue_add": "@{user} a ajouté @{addedUser} dans la liste de lecture.",
       "queue_remove": "@{mod} supprimé @{user} de la liste de lecture.",
       "queue_move": "@{mod} a déplacé @{user} de {from} à {to}.",
-      "role_add": "@{mod} a été ajouté {users} au rôle **{role}**.",
-      "role_remove": "@{mod} a été supprimé {users} du rôle **{role}**.",
+      "role_add": "@{mod} a ajouté {users} au rôle **{role}**.",
+      "role_remove": "@{mod} a supprimé {users} du rôle **{role}**.",
       "user_ban": "{username} a été banni de la salle.",
       "user_kick": "{username} a été éjecté de la salle.",
-      "user_site_ban": "{username} has been banned from Pubby.club"
+      "user_site_ban": "{username} a été banni de Pubby.club"
     },
     "dialogs": {
       "remove": {
         "title": "Supprimer le message",
-        "body": "Es-tu sûr de vouloir supprimer ce message?"
+        "body": "Es-tu sûr de vouloir supprimer ce message ?"
       },
       "clear": {
-        "title": "Clear messages",
-        "body": "Are you sure you want to delete all messages?"
+        "title": "Supprimer les messages",
+        "body": "Es-tu sûr de vouloir tous les messages ?"
       }
     }
   },
@@ -614,7 +614,7 @@
     "user": "Utilisateur",
     "reason": "Motif",
     "mod": "Banni par",
-    "date": "Banni à",
+    "date": "Banni le",
     "expires": "Expire dans",
     "never": "Jamais",
     "permanent": "Permanent",
@@ -625,8 +625,8 @@
     "not_specified": "Non spécifié",
     "dialogs": {
       "user_unban": {
-        "title": "Débannir un Utilisateur",
-        "body": "Es-tu sûr de vouloir débannir {username} de la salle?"
+        "title": "Débannir un utilisateur",
+        "body": "Es-tu sûr de vouloir débannir {username} de la salle ?"
       },
       "user_banned": {
         "body": "Tu as été banni de {room}"
